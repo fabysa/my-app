@@ -1,0 +1,350 @@
+
+/* Mobile & Tablet */
+@media screen and (max-width : 1023px) {
+    .all{
+        .App {
+            text-align: center;
+            a{
+              text-decoration: none;
+              color: black;
+            }
+            
+            .ttShop{
+              .banner-container{
+                width: 100%;
+                height: 50vw;
+                object-fit: cover;
+            }
+            .tenCuaHang{
+                color: red;
+                text-transform: uppercase;
+                padding: 1vw 0vw;
+                font-size: 5vw;
+                font-weight: 600;
+                }
+            .internet-website{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2vw;
+                margin-bottom: 5vw;
+                .internet{
+                    width: 3vw;
+                    height: 3vw;
+                    object-fit: cover;
+                    border-radius: 50%;
+    
+                }
+                .website{
+                    font-size: 3vw;
+                    font-weight: 500;
+                    color: #04aa6d;
+    
+                }
+                }
+            }
+            .tuVan-gioiThieu{
+              display: flex;
+          gap: 30%;
+          justify-content: center;
+          align-items: center;
+          margin: 3vw auto;
+              .tuVan{
+                  display: block;
+                  padding: 1vw;
+                  color: #fff;
+                  border-radius: 1vw;
+                  background-color: #04aa6d;
+                  width: 25vw;
+                  text-align: center;
+                  font-size: 3vw;
+                  border: none;
+          
+              }
+              .gioiThieu{
+                  padding: 1vw;
+                  display: block;
+                  color: #fff;
+                  border-radius: 1vw;
+                  background-color: #04aa6d;
+                  width: 25vw;
+                  text-align: center;
+                  font-size: 3vw;
+                  border: none;
+              }
+          }
+          .gioiThieuChiTiet{
+            .closeGioiThieu{
+                margin-bottom: 2vw;
+                border-radius: 3vw;
+                background-color: red;
+                padding: 1vw;
+                width: 15vw;
+                font-size: 3vw;
+                border: none;
+                color: #fff;
+            }
+            .tenCuaHang2{
+                color: #04aa6d;
+                font-weight: 600;
+                font-size: 5vw;
+                text-align: center;
+                margin-bottom: 1vw;
+                text-transform: uppercase;
+    
+    
+            }
+            .slogan{
+                font-size: 3.5vw;
+              text-align: center;
+              margin-bottom: 5vw;
+              font-weight: 600;
+            //   text-transform: uppercase;
+                
+              }
+            .khoContainer{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 5vw;
+                margin: 5vw 15vw;
+                .kho{
+                    // border: solid 1px red;
+                    border-radius: 1vw;
+                    background-color: #04aa6d;
+                    color: #fff;
+                    padding: 1vw;
+                    font-size: 3vw;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+            .dc{
+                font-size: 3vw;
+                text-align: left;
+                margin: 1vw auto 1vw 5vw;
+                line-height: 5vw;
+    
+            }
+            .camOn{
+                font-size: 5vw;
+                font-weight: 600;
+                text-align: center;
+                margin: 2vw auto;
+            }
+            
+            .mxh{
+                margin-top: 2vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5vw;
+                .zalo{
+                    background-color: #04aa6d;
+                    width: 10vw;
+                height: 10vw;
+                border-radius: 50%;
+    
+    
+    
+                }
+                .facebook{
+                    background-color: #04aa6d;
+                    width: 10vw;
+                    height: 10vw;
+                    border-radius: 50%;
+                }
+            }
+            .like{
+                background-color:  red;
+                width: 30vw;
+                font-size: 3.5vw;
+                font-weight: 600;
+                color: white;
+                cursor: pointer;
+                text-transform: uppercase;
+                padding: 2vw 0vw;
+                border-radius: 2vw;
+                margin-top: 5vw;
+                border: none;
+    
+            }
+        }
+        .tuVanChiTiet{
+            
+         .closeGioiThieu{
+            margin-bottom: 2vw;
+            border-radius: 3vw;
+            background-color: red;
+            padding: 1vw;
+            width: 15vw;
+            font-size: 3vw;
+            border: none;
+            color: #fff;
+        }
+        .fabysa{
+            color: #04aa6d;
+            font-weight: 600;
+            font-size: 5vw;
+            text-align: center;
+            margin-bottom: 2vw;
+            text-transform: uppercase;
+        }
+        .gioiThieuFabysa{
+            font-size: 3vw;
+            text-align: left;
+            margin: 1vw auto 1vw 5vw;
+            line-height: 5vw;
+        }
+        .sanSale{
+            padding: 2vw;
+            // display: block;
+            color: #fff;
+            border-radius: 1vw;
+            background-color: #04aa6d;
+            width: 55vw;
+            text-align: center;
+            font-size: 5vw;
+            border: none;
+            margin-top: 5vw;
+            font-weight: 600;
+    
+        }
+        }
+              .sanPham{
+                margin-bottom: 30vw;
+                a{text-decoration: none};
+                .nhomSanPham-sanPham{
+                    margin: 5vw auto;
+                justify-content: center;
+                align-items: center;
+                    .nhomSanPham{
+                        background-color: red;
+                        font-size: 5vw;
+                        font-weight: 600;     
+                        text-transform: uppercase;
+                        padding: 1vw;
+                        color: white;
+                        text-align: center;
+            
+                    }
+                    .sanPham-container{
+                   
+                        display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    
+                    background-color: #88d3b4;
+                    padding: 1vw 0vw 3vw 0vw;
+                
+                    .sanPham {
+                        justify-content: center;
+                        align-items: center;
+                        padding: 2vw;
+                        margin: 1vw;
+                        border-radius: 2vw;
+                        background-color: #fff;
+                        box-shadow: 12px 14px 12px -1px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 12px 14px 12px -1px rgba(0,0,0,0.75);
+                -moz-box-shadow: 12px 14px 12px -1px rgba(0,0,0,0.75);
+                        .anhSanPham {
+                            width: 43vw;
+                            height: 50vw;
+                            object-fit: cover;
+                            border: solid 0.1vw gray;
+                            background-color: #fff;
+                            cursor: pointer;
+                            border-radius: 2vw;
+                        }
+                        .tenSanPham {
+                            width: 43vw;
+                            font-size: 3.5vw;
+                            font-weight: 600;
+                            margin: 1vw auto;
+                            text-transform: uppercase;
+                            word-wrap:break-word;
+                        overflow:auto;
+                        }
+                        .giaBan {
+                            text-align: center;
+                            justify-content: center;
+                            
+                            .giaBanMoi {
+                                color: red;
+                                font-size: 5vw;
+                            font-weight: 600;
+                            margin-bottom: 1vw;
+                            }
+                            
+                                .giaGiam{
+                                    display: flex;
+                                    gap: 2vw;
+                                    align-items: center;
+                                    justify-content: center;
+                                    .giabanCu {
+                                        text-decoration: line-through;
+                                        font-size: 3vw;
+                                        font-weight: 300;
+                        
+                                    }
+                                    .phanTram{
+                                        font-size: 3vw;
+                                        font-weight: 300;
+                                    }
+                                
+                            }
+                            
+                           
+                            
+                        }
+                       
+                      
+                    }
+                    
+                            
+                
+                    }
+                }
+                .xemThem{
+                    color: #fff;
+                     margin: 5vw;
+                     padding: 1vw;
+                      background-color: #04aa6d;
+                      width: 30vw;
+                    font-weight: 600;
+                      font-size: 3vw;
+                      border-radius: 1vw;
+                      border: none;
+                     }
+            }
+            
+            
+          }
+          .App2{
+            display: none;
+          }
+    }
+  
+}
+
+/* PC*/
+@media screen and (min-width : 1024px) {
+    .all{
+        .App {
+        display: none !important;
+        }
+        .App2{
+          display: block;
+          margin: 10vw;
+          text-align: center;
+          text-align: center;
+          background-color: #04aa6d;
+          color: #fff;
+          font-size: 3vw;
+          font-weight: 600;
+           padding: 2vw;
+          border-radius: 3vw;
+          box-shadow: 13px 11px 27px 0px rgba(4,170,109,0.75);
+          -webkit-box-shadow: 13px 11px 27px 0px rgba(4,170,109,0.75);
+          -moz-box-shadow: 13px 11px 27px 0px rgba(4,170,109,0.75);
+        }}
+    
+}
